@@ -9,17 +9,18 @@
 
 int main()
 {
-    int a = 0;
-    int b = 368;
-    int c;
+    int a=0,i;
 
-    while(a<b)
+    for(i=0; i<368; i++)
     {
         a++;
-        c=a%2;
-        if(c==0)
+        if(a%2==0)
         {
-            printf("%d, ", a);
+            printf("%d\t", a);
+        }
+        if(a%16==0)
+        {
+            printf("\n");
         }
     }
 
