@@ -1,3 +1,9 @@
+//=============================================================
+//Autor: Maximilian Müller
+//Datum: 29.04.2020
+//Funktion: Gerade Zahlen ausgeben
+//=============================================================
+
 #include <stdio.h>
 #include <stdlib.h>
 
